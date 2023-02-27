@@ -8,7 +8,8 @@ public class CalculatorTest {
     private Calculator calculator = new Calculator();
 
     @Test
-    public void testAdd() {
+    public void testAdd() throws InterruptedException {
+        Thread.sleep(30000);
         assertEquals(4, calculator.add(2, 2));
     }
 
@@ -18,7 +19,8 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testMultiply() {
+    public void testMultiply() throws InterruptedException {
+        Thread.sleep(30000);
         assertEquals(6, calculator.multiply(2, 3));
     }
 
