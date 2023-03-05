@@ -1,5 +1,0 @@
-#version=1
-#current_batch=1
-#total_batches=3
-#suite=
-org.example.CalculatorTestWithDelays
