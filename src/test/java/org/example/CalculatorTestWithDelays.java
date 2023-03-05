@@ -23,7 +23,7 @@ public class CalculatorTestWithDelays {
     @Test
     public void testMultiply() throws InterruptedException {
         Thread.sleep(10000);
-        assertEquals(6, calculator.multiply(2, 3));
+        assertEquals(7, calculator.multiply(2, 3));
     }
 
     @Test
